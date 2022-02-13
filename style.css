@@ -63,8 +63,12 @@ h1,h2,h3 {
 
 .about__container{
     display: flex;
+    margin-top: 105px;
 }
 
+.about__info{
+    padding-right: 12.3%;
+}
 
 .about__avatar{
     height: 243px;
@@ -73,6 +77,8 @@ h1,h2,h3 {
     overflow: hidden;
     flex-shrink: 0;
 }
+
+
 
 .about__img{
     width: 100%;
@@ -92,6 +98,7 @@ h1,h2,h3 {
     font-size: 16px;
     width: 497px;
     margin-bottom: 47px;
+    
 }
 
 .button{
@@ -101,6 +108,71 @@ h1,h2,h3 {
     padding: 15px;
     color: #FFFFFF;
     border-radius: 2px;
+    border-style: none;
     
 }
 
+.recent-posts{
+    width: 100%;
+    background-color: #EDF7FA;
+    height: 396px;
+    margin-top: 88px;
+}
+
+.recent-posts__top{
+    display: flex;
+    width: 856px;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+
+
+.recent-posts__title{
+    font-size: 22px;
+}
+
+.recent-posts__link{
+    font-size: 16px;
+    color: #00aeff;
+}
+
+.recent-posts__articles{
+    display: flex;
+    width: 856px;
+    height: 295px;
+
+}
+
+.recent-posts__article{
+    background-color: #FFFFFF;
+}
+
+.article__two{
+    margin-left: 20px;
+}
+
+.recent-posts__subtitle{
+    margin: 24px 22px 22px ;
+    font-size: 26px;
+    line-height: 38px;
+    display: flex;
+}
+
+.recent-posts__info{
+    margin: 17px 22px 22px ;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.recent-posts__text{
+    margin: 11px 22px 22px ;
+    font-size: 16px;
+    line-height: 23px
+    
+}
+
+.recent-posts__separator{
+    margin-left: 20px;
+    margin-right: 20px;
+}
