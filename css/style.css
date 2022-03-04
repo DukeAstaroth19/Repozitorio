@@ -239,3 +239,21 @@ h1,h2,h3 {
     height: 100%;
     object-fit: cover;
 }
+
+
+
+.container_element{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_element{
+    display: flex;
+    
+}
+
+.nav_link{
+    margin-left: 20px;
+}
