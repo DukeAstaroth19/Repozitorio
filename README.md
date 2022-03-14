@@ -1,3 +1,3 @@
 # portfolio
-Денис Рябиков С.<br>
+Денис Рябиков <br>
 https://usu21.github.io/portfolio/
