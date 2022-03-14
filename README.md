@@ -1,3 +1,3 @@
 # portfolio
 Денис Рябиков <br>
-https://usu21.github.io/portfolio/
+https://dukeastaroth19.github.io/Repozitorio/
