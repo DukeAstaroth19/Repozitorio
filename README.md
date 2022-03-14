@@ -1,3 +1,3 @@
 # portfolio
-Попов В. С.<br>
+Денис Рябиков С.<br>
 https://usu21.github.io/portfolio/
