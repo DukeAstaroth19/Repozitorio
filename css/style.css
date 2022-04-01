@@ -331,33 +331,51 @@ h1,h2,h3 {
     padding-left: 26px;
 }
 
-.footer-container {
-    background-color: #FFFFFF;
+.footer {
+    padding: 51px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.links {
-    justify-content: space-between;
+.footer__social-list {
     display: flex;
-    align-items: center;
-    padding-bottom: 30px;
-    width: 232px;
 }
 
-.link-fg{
-    background-size: contain;
+.footer__social-item {
+    margin-right: 35px;
+    width: 30px;
+    height: 30px;
+}
+
+.footer__social-item:last-child {
+    margin-right: 0;
+}
+
+.footer__social-link {
+    display: block;
     background-repeat: no-repeat;
-    width: 100%;
+    background-size: contain;
+    font-size: 0px;
     height: 100%;
+    width: 100%;
 }
 
-.element_text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.footer__social-link--fb {
+    background-image: url(../img/ok.png);
+}
+
+.footer__social-link--insta {
+    background-image: url(../img/github.png);
+}
+
+.footer__social-link--tw {
+    background-image: url(../img/vk.png);
+}
+
+.footer__social-link--in {
+    background-image: url(../img/telegram.png);
 }
 
 @media (max-width: 480px) {
@@ -382,44 +400,46 @@ h1,h2,h3 {
 
 
 
-.Blog{
+.blog__article {
+    padding: 20px 0px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.blog__title {
+    margin-bottom: 20px;
     font-size: 44px;
-    color: #21243D;
+    color: #000000;
+    font-weight: 700;
+    line-height: 60px;
 }
 
-
-
-.container-blog__article {
-    border-radius: 4px;
-    padding: 24px 22px 30px 0px;
-    margin-right: 2%;
+.blog__article-separator{
+    margin: 0px 29px;
 }
 
-
-
-.container-blog__subtitle {
-    padding: 24px 22px 22px;
+.blog__subtitle{
     font-size: 30px;
-    line-height: 38px;
-    
+    color: #000000;
+    font-weight: 500;
+    line-height: 44px;
 }
 
-.container-blog__info {
-    padding: 17px 22px 22px;
-    font-size: 18px;
-    line-height: 26px;
-}
-
-.container-blog__text {
-    padding: 11px 22px 22px;
-    font-size: 16px;
-    line-height: 23px
-}
-
-.container-blog__separator {
-    
+.blog__article-category{
+    font-weight: 400;
     font-size: 20px;
-    color: #21243D;
+    line-height: 29px;
+    color: #8695A4;
 }
 
+.blog__article-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
 
+@media (max-width: 480px){
+    .blog__article{
+        width: 339px;
+        height: 204px;
+    }
+}
